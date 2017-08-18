@@ -32,7 +32,10 @@ button {
   padding: 5px 30px 6px;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 16px
+  font-size: 16px;
+}
+button a {
+  text-decoration: none;
 }
 
 /* Link colors*/
@@ -93,9 +96,18 @@ h5 {
   margin-bottom: 2px;
 }
 
+#newest {
+  position: relative;
+}
+
 div a {
   display: flex;
-  justify-content: flex-end;
-  align-self: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 
+}
+
+div p {
+  margin-bottom: 20px;
 }
