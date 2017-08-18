@@ -23,7 +23,9 @@ section h1 {
 }
 
 section p {
-  font-size: 11px;
+  font-size: 1em;
+  margin-top: 0;
+  margin-left: 10px;
 }
 
 /* navigation in header */
@@ -59,6 +61,7 @@ a:active {
 #mainPhoto {
   display: flex;
   justify-content: flex-end;
+  background-color: darkred;
 }
 
 /* Section class for latest manga */
@@ -66,6 +69,7 @@ a:active {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  background-color: rgb(250,220,180);
 }
 
 .latest {
@@ -87,6 +91,7 @@ h3 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 h5 {
