@@ -1,0 +1,101 @@
+header {
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+}
+
+section h1 {
+  margin-top: 5px;
+  margin-bottom: -15px;
+  align-content: center;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 4em;
+}
+
+section p {
+  font-size: 11px;
+}
+
+/* navigation in header */
+button {
+  background-color: orange;
+  padding: 5px 30px 6px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px
+}
+
+/* Link colors*/
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: #6f9cff;
+}
+
+/* big photo under header */
+#mainPhoto {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Section class for latest manga */
+.manga {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.latest {
+  width: 150px;
+  height: auto;
+  float: left;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+div p {
+  margin: 10px;
+}
+
+h3 {
+  font-family: monospace;
+  background-color: grey;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 2px;
+}
+
+div a {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+
+}
