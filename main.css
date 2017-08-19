@@ -110,7 +110,10 @@ div a {
   position: absolute;
   right: 0;
   bottom: 0;
+}
 
+body {
+  margin: 0;
 }
 
 div p {
