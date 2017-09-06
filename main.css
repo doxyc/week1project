@@ -64,6 +64,10 @@ a:active {
   background-color: darkred;
 }
 
+#about {
+  margin: 20px;
+}
+
 /* Section class for latest manga */
 .manga {
   display: flex;
@@ -118,4 +122,8 @@ body {
 
 div p {
   margin-bottom: 20px;
+}
+
+html {
+  background-color: rgb(250,220,180);
 }
